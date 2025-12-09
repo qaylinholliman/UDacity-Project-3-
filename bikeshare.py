@@ -5,6 +5,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+#provide syntax for multiple cities, if not all##
 
 def load_data(city=None, month=None, day=None):
     """load x with input and return a dataframe considering filter"""
