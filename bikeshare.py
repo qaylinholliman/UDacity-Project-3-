@@ -56,7 +56,7 @@ def load_data(city=None, month=None, day=None):
             print("end of dataset.")
     return df, city
 
-
+#you can define time_stats a little better#
 def time_stats(df):
     """present time of travel considering new columns created"""
     print('\nCalculating The Most Frequent Times of Travel...\n')
@@ -147,3 +147,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#this is the bookmark to make changes to code#
